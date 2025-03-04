@@ -7,11 +7,11 @@
       "headings": {
         "about-us": "About Us",
         "project-team": "Project team",
-        "john-doe": "John Doe",
+        "chin-zhen-jie": "Chin Zhen Jie",
         "jane-doe": "Jane Doe",
         "johnny-doe": "Johnny Doe",
-        "jean-doe": "Jean Doe",
-        "james-doe": "James Doe"
+        "ong-wei-en": "Ong Wei En",
+        "philbert-shea": "Philbert Shea"
       },
       "headingKeywords": {}
     },
@@ -136,8 +136,32 @@
       "headingKeywords": {}
     },
     {
+      "src": "team/aquaimpact.md",
+      "title": "Wei En's Project Portfolio Page",
+      "headings": {
+        "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/chinzj.md",
+      "title": "Chin Zhen Jie's Project Portfolio Page",
+      "headings": {
+        "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "team/johndoe.md",
       "title": "John Doe's Project Portfolio Page",
+      "headings": {
+        "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/philbertshea.md",
+      "title": "Philbert Shea's Project Portfolio Page",
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
       },
