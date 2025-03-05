@@ -329,11 +329,20 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 ### Non-Functional Requirements
 
-1.  Should work on any _mainstream OS_ as long as it has Java `17` or above installed.
-2.  Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
-3.  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
-
-*{More to be added}*
+1. A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse. 
+2. Ideally entirely keyboard driven, with minimal mouse clicks required.
+2. Should work on any _mainstream OS_ as long as it has Java `17` or above installed. 
+3. Should respond to user input relatively quickly (under 1s).
+3. Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage. 
+4. Data should be stored locally and should be in a human editable text file, not involving the use of a Database Management System. 
+5. Should save backups occasionally. 
+6. Should follow Object-oriented paradigm primarily. 
+7. Should not depend on a personal remote server and function completely offline.
+8. Should work without requiring an installer. 
+9. Should work well for standard screen resolutions 1920x1080 and higher and of screen scales 100% and 125%. 
+10. Should be functional for screen resolutions 1280x720 and higher and of screen scales 150%. 
+11. Product should be under 100MB, while documents should be under 15MB/file.
+12. Should have PDF-friendly developer guides and user guides.
 
 ### Glossary
 

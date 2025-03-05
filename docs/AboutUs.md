@@ -11,15 +11,16 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Chin Zhen Jie
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/chinzj.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[homepage](https://github.com/ChinZJ)]
+[[github](https://github.com/ChinZJ)]
+[[portfolio](team/chinzj.md)]
 
-* Role: Project Advisor
+* Role: Deliverables and Deadlines
+* Responsibilities: Ensure project deliverables are done on time and in the right format.
 
 ### Jane Doe
 
@@ -40,22 +41,22 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Data
 
-### Jean Doe
+### Ong Wei En
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/aquaimpact.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/aquaimpact)]
+[[portfolio](team/aquaimpact.md)]
 
-* Role: Developer
-* Responsibilities: Dev Ops + Threading
+* Role: Documentation
+* Responsibilities: Quality of various project documents
 
-### James Doe
+### Philbert Shea
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/philbertshea.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/philbertshea)]
+[[portfolio](team/philbertshea.md)]
 
-* Role: Developer
-* Responsibilities: UI
+* Role: Code Quality
+* Responsibilities: Looks after code quality, ensures adherence to coding standards, etc.
