@@ -8,10 +8,11 @@
         "about-us": "About Us",
         "project-team": "Project team",
         "chin-zhen-jie": "Chin Zhen Jie",
-        "jane-doe": "Jane Doe",
-        "johnny-doe": "Johnny Doe",
+        "hannah-loh": "Hannah Loh",
+        "low-hsin-yi": "Low Hsin Yi",
         "ong-wei-en": "Ong Wei En",
-        "philbert-shea": "Philbert Shea"
+        "philbert-shea": "Philbert Shea",
+        "xuezhou-xu": "Xuezhou Xu"
       },
       "headingKeywords": {}
     },
@@ -152,8 +153,16 @@
       "headingKeywords": {}
     },
     {
-      "src": "team/johndoe.md",
+      "src": "team/hhlh27.md",
       "title": "John Doe's Project Portfolio Page",
+      "headings": {
+        "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/hsinyilow.md",
+      "title": "Low Hsin Yi's Project Portfolio Page",
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
       },
@@ -162,6 +171,14 @@
     {
       "src": "team/philbertshea.md",
       "title": "Philbert Shea's Project Portfolio Page",
+      "headings": {
+        "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/xuxuezhou.md",
+      "title": "Xuezhou Xu's Project Portfolio Page",
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
       },
