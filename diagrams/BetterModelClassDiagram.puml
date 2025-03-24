@@ -4,6 +4,10 @@ skinparam arrowThickness 1.1
 skinparam arrowColor MODEL_COLOR
 skinparam classBackgroundColor MODEL_COLOR
 
+skinparam noteBorderColor black
+skinparam noteFontColor black
+skinparam noteLinkColor black
+
 AddressBook *-right-> "1" UniquePersonList
 AddressBook *-right-> "1" UniqueTagList
 UniqueTagList -[hidden]down- UniquePersonList
@@ -14,8 +18,28 @@ UniquePersonList -right-> Person
 
 Person -up-> "*" Tag
 
-Person *--> Name
-Person *--> Phone
-Person *--> Email
-Person *--> Address
+Person *--> "1" Name
+Person *--> "0..1" Phone
+Person *--> "0..1" TeleHandle
+Person *--> "1" Email
+Person *--> "1" MatNum
+Person *--> "0..1" TutGroup
+Person *--> "0..1" LabGroup
+Person *--> "0..1" Faculty
+Person *--> "1" AttendanceList
+Person *--> "0..1" Year
+Person *--> "0..1" Remark
+
+note "At least one must be present" as PhoneTeleNote
+PhoneTeleNote .. Phone #black
+PhoneTeleNote .. TeleHandle #black
+TeleHandle -[hidden]down-> PhoneTeleNote
+Phone -[hidden]down-> PhoneTeleNote
+
+note "At least one must be present" as TutLabNote
+TutLabNote .. TutGroup #black
+TutLabNote .. LabGroup #black
+TutGroup -[hidden]down-> TutLabNote
+LabGroup -[hidden]down-> TutLabNote
+
 @enduml
