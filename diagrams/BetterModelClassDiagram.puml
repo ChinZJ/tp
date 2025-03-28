@@ -42,4 +42,8 @@ TutLabNote .. LabGroup #black
 TutGroup -[hidden]down-> TutLabNote
 LabGroup -[hidden]down-> TutLabNote
 
+note "Non-empty if TutGroup is present, \nelse Empty" as AttListNote
+AttListNote .. AttendanceList #black
+AttendanceList -[hidden]down-> AttListNote
+
 @enduml
