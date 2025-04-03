@@ -26,7 +26,7 @@ AddressBookParser -> UpdateLabScoreCommandParser
 activate UpdateLabScoreCommandParser
 
 create UpdateLabScoreCommand
-UpdateLabScoreCommandParser --> UpdateLabScoreCommand
+UpdateLabScoreCommandParser -> UpdateLabScoreCommand
 activate UpdateLabScoreCommand
 
 UpdateLabScoreCommand --> UpdateLabScoreCommandParser
@@ -56,7 +56,7 @@ deactivate LabScoreList
 UpdateLabScoreCommand -> Model : setPerson(personToUpdate, updatedPerson)
 activate Model
 
-Model -> UpdateLabScoreCommand
+Model --> UpdateLabScoreCommand
 deactivate Model
 
 create CommandResult

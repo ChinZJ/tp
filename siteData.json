@@ -64,6 +64,7 @@
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
         "deleting-a-person": "Deleting a person",
+        "marking-attendance": "Marking attendance",
         "saving-data": "Saving data"
       },
       "headingKeywords": {}
@@ -117,6 +118,7 @@
         "editing-a-student-edit": "Editing a student : edit",
         "tagging-a-student-tag": "Tagging a student: tag",
         "marks-attendance-att": "Marks attendance: att",
+        "updating-lab-scores-lab": "Updating lab scores: lab",
         "locating-persons-by-name-find": "Locating persons by name: find",
         "deleting-a-person-del": "Deleting a person : del",
         "clearing-all-entries-clear": "Clearing all entries : clear",

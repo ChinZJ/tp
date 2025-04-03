@@ -60,6 +60,7 @@ Person *--> "0..1" Year
 Person *--> "1" AttendanceList
 Person *--> "0..1" Remark
 Person *--> "*" Tag
+AttendanceList *--> "0..13" Attendance
 
 Person -[hidden]up--> I
 UniquePersonList -[hidden]right-> I
@@ -75,6 +76,7 @@ Faculty -[hidden]right-> Year
 Year -[hidden]right-> AttendanceList
 AttendanceList -[hidden]right-> Remark
 Remark -[hidden]right-> Tag
+Attendance -[hidden]up-> AttendanceList
 
 note "At least one must be present" as PhoneTeleNote
 PhoneTeleNote .. Phone #black
@@ -87,6 +89,12 @@ TutLabNote .. TutGroup #black
 TutLabNote .. LabGroup #black
 TutGroup -[hidden]down-> TutLabNote
 LabGroup -[hidden]down-> TutLabNote
+
+note "If TutGroup is present, AttendanceList \ncontains 13 Attendance instances. \nElse, AttendanceList is empty." as AttListNote
+AttListNote .. AttendanceList #black
+AttListNote .. Attendance #black
+AttendanceList -[hidden]down-> AttListNote
+Attendance -[hidden]down-> AttListNote
 
 ModelManager --> "~* filtered" Person
 @enduml
