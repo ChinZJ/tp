@@ -30,6 +30,7 @@ Class Name
 Class Phone
 Class Tag
 Class AttendanceList
+Class Attendance
 
 Class I #FFFFFF
 }
@@ -65,18 +66,19 @@ AttendanceList *--> "0..13" Attendance
 Person -[hidden]up--> I
 UniquePersonList -[hidden]right-> I
 
-Name -[hidden]right-> Phone
-Phone -[hidden]right-> TeleHandle
-TeleHandle -[hidden]right-> Email
+Name -[hidden]right-> Email
 Email -[hidden]right-> MatNum
-MatNum -[hidden]right-> TutGroup
-TutGroup -[hidden]right-> LabGroup
-LabGroup -[hidden]right-> Faculty
+MatNum -[hidden]right-> Faculty
 Faculty -[hidden]right-> Year
-Year -[hidden]right-> AttendanceList
-AttendanceList -[hidden]right-> Remark
-Remark -[hidden]right-> Tag
-Attendance -[hidden]up-> AttendanceList
+Year -[hidden]right-> Tag
+Tag -[hidden]right-> Remark
+
+Name -[hidden]down-> AttendanceList
+AttendanceList -[hidden]right-> Phone
+Attendance -[hidden]right-> AttendanceList
+Phone -[hidden]right-> TeleHandle
+TeleHandle -[hidden]right-> TutGroup
+TutGroup -[hidden]right-> LabGroup
 
 note "At least one must be present" as PhoneTeleNote
 PhoneTeleNote .. Phone #black
@@ -90,7 +92,9 @@ TutLabNote .. LabGroup #black
 TutGroup -[hidden]down-> TutLabNote
 LabGroup -[hidden]down-> TutLabNote
 
-note "If TutGroup is present, AttendanceList \ncontains 13 Attendance instances. \nElse, AttendanceList is empty." as AttListNote
+note "If TutGroup is present, AttendanceList \n\
+contains 13 Attendance instances. \nElse, \
+AttendanceList is empty." as AttListNote
 AttListNote .. AttendanceList #black
 AttListNote .. Attendance #black
 AttendanceList -[hidden]down-> AttListNote
