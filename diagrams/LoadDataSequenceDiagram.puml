@@ -1,0 +1,32 @@
+@startuml
+actor User
+participant "LogicManager" as Logic
+participant "AddressBookParser" as Parser
+participant "LoadDataCommandParser" as CmdParser
+participant "LoadDataCommand" as Command
+participant "CsvAddressBookStorage / JsonUtil" as Storage
+participant "Model" as Model
+
+User -> Logic : enterCommand("load -f userdata -ext csv")
+Logic -> Parser : parseCommand()
+Parser -> CmdParser : parse(arguments)
+CmdParser -> Command : new LoadDataCommand(fileName, extension)
+Parser --> Logic : return LoadDataCommand
+
+Logic -> Command : execute(model)
+Command -> Command : validateExtension + fileName
+Command -> Storage : readAddressBook(Path)
+
+alt csv
+    Storage -> CsvUtil : deserializeCsvToPersonList(path)
+else json
+    Storage -> JsonUtil : readJsonFile(path)
+end
+
+Storage --> Command : return ReadOnlyAddressBook
+Command -> Model : setAddressBook()
+
+Model --> Command : (void)
+Command --> Logic : return CommandResult
+
+@enduml
