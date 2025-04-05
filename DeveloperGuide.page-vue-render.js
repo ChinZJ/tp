@@ -479,6 +479,6 @@ with(this){return _c('h3',{attrs:{"id":"achievements"}},[_v("Achievements"),_c('
 with(this){return _c('ul',[_c('li',[_c('p',[_v("Despite the seemingly minute additions to the MVP in terms of features, our goals were achieved.")])]),_v(" "),_c('li',[_c('p',[_v("A deeper understanding of software development and the tools available (e.g. Git).")])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Fri, 4 Apr 2025, 0:00:43 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Sat, 5 Apr 2025, 8:20:42 GMT+8]")])])])}
 }];
   
