@@ -76,9 +76,7 @@
         "lab-score": "Lab Score",
         "loading-data": "Loading data",
         "exporting-data": "Exporting data",
-        "saving-data": "Saving data",
         "appendix-planned-enhancements": "Appendix: Planned Enhancements",
-        "ui-glitch-upon-selecting-contact": "UI glitch upon selecting contact",
         "appendix-effort": "Appendix: Effort",
         "difficulty-level": "Difficulty level",
         "challenges-faced": "Challenges faced",
@@ -138,7 +136,7 @@
         "undo-command-undo": "Undo command: undo",
         "adding-a-student-add": "Adding a student: add",
         "editing-a-student-edit": "Editing a student : edit",
-        "deleting-a-student-del": "Deleting a student : del",
+        "deleting-student-s-del": "Deleting student(s): del",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "tagging-a-student-tag": "Tagging a student: tag",
         "marks-attendance-att": "Marks attendance: att",
@@ -166,7 +164,7 @@
       "src": "team/aquaimpact.md",
       "title": "Wei En's Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-tassist": "Project: TAssist"
       },
       "headingKeywords": {}
     },
@@ -174,7 +172,7 @@
       "src": "team/chinzj.md",
       "title": "Chin Zhen Jie's Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-tassist": "Project: TAssist"
       },
       "headingKeywords": {}
     },
@@ -182,7 +180,7 @@
       "src": "team/hhlh27.md",
       "title": "John Doe's Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-tassist": "Project: TAssist"
       },
       "headingKeywords": {}
     },
@@ -190,7 +188,7 @@
       "src": "team/hsinyilow.md",
       "title": "Low Hsin Yi's Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-tassist": "Project: TAssist"
       },
       "headingKeywords": {}
     },
@@ -198,7 +196,7 @@
       "src": "team/philbertshea.md",
       "title": "Philbert Shea's Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-tassist": "Project: TAssist"
       },
       "headingKeywords": {}
     },
@@ -206,7 +204,7 @@
       "src": "team/xuxuezhou.md",
       "title": "Xuezhou Xu's Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-tassist": "Project: TAssist"
       },
       "headingKeywords": {}
     }
